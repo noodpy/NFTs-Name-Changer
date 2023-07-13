@@ -12,7 +12,9 @@ The NFTs Name Changer is a Python application that allows you to rename multiple
 1. Clone the repository or download the source code files.
 2. Install the required dependencies by running the following command:
 
+```py
 pip install pyqt6
+```
 
 1. Run the application using the following command:
 
