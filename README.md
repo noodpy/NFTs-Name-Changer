@@ -18,13 +18,19 @@ pip install pyqt6
 
 1. Run the application using the following command:
 
+```py
 python main.py
+```
 
 Alternatively, you can create an executable file (.exe) using pyinstaller:
 
+```py
 pip install pyinstaller
+```
 
+```py
 pyinstaller main.py --onefile --windowed --add-data "info.json;." --add-data "logo.png;." --icon "icon.png"
+```
 
 This will generate a standalone executable file that users can directly run without installing any dependencies.
 
